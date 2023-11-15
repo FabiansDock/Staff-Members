@@ -53,6 +53,8 @@ main {
     align-items: center;
     row-gap: 200px;
     padding: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 main figure{
@@ -78,3 +80,21 @@ img {
 img p{
     font-size: 10px;
 }
+
+/* @media screen and (orientation: landscape) {
+    html {
+        height: auto
+    }
+    main {
+        flex-direction: row;
+        height:100%;
+        gap: 50px;
+        padding:34px;
+        align-items: center;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    nav {
+        display: none;
+    }
+} */
