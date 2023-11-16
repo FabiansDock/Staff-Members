@@ -92,15 +92,15 @@ figure p{
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
-        height:100vh;
+        height:auto;
     }
     nav {
         display: none;
     }
     main figure{
         font-size: 1em;
-        width: 8em;
-        height: 10em;
+        width: 6em;
+        height: 8em;
     }
     figurecaption{
         font-size: 20px;
@@ -109,8 +109,8 @@ figure p{
         font-size: 10px;
     }
     figure img {
-        height: 7em;
-        width: 7em;
+        height: 5em;
+        width: 5em;
         border-radius: 3.5em;
     }
 }
