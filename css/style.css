@@ -86,6 +86,9 @@ figure p{
 
 
 @media screen and (min-aspect-ratio: 7/4) {
+    html {
+        width: 130%;
+    }
     body{
         font-size: 3em;
     }
