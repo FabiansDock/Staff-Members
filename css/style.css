@@ -11,7 +11,7 @@ html {
 
 body {
     display: grid;
-    font-size: 4rem;
+    font-size: 3rem;
     height: auto;
 }
 
@@ -62,7 +62,7 @@ main figure{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:9em;
+    height:10em;
     width: 7em;
     background-color: rgb(39, 99, 147);
     border: 2px solid black;
@@ -81,7 +81,7 @@ img {
 }
 
 figure p{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
