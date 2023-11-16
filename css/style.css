@@ -86,9 +86,6 @@ figure p{
 
 
 @media screen and (min-aspect-ratio: 7/4) {
-    html {
-        width: 130%;
-    }
     body{
         font-size: 3em;
     }
@@ -132,9 +129,6 @@ figure p{
 }
 
 @media screen and (min-width:1200px) {
-    html{
-        width: 100%;
-    }
     main {
         display: flex;
         flex-direction: column;
