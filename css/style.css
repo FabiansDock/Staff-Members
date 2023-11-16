@@ -12,7 +12,7 @@ html {
 body {
     display: grid;
     font-size: 3rem;
-    height: auto;
+    height: 160vh;
 }
 
 header, main, footer {
@@ -92,7 +92,7 @@ figure p{
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
-        height:auto;
+        height: 150vh;
     }
     nav {
         display: none;
