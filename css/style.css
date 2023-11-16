@@ -5,7 +5,7 @@
 }
 
 html {
-    width: 130%;
+    width: 100%;
     scroll-behavior: smooth;
 }
 
@@ -129,6 +129,9 @@ figure p{
 }
 
 @media screen and (min-width:1200px) {
+    html{
+        width: 100%;
+    }
     main {
         display: flex;
         flex-direction: column;
