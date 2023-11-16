@@ -72,6 +72,7 @@ main figure{
 img {
     height:40rem;
     width: 40rem;
+    background-color: hsla(0, 0%, 96%, 0.46);
     border-radius: 20rem;
     border: 2px double black;
     border-width: 5px
