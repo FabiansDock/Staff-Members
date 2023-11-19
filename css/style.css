@@ -27,7 +27,8 @@ header {
     top: 0;
 }
 footer{
-    position: sticky;
+    position: fixed;
+    width: 100%;
     bottom: 0;
 }
 
