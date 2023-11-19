@@ -5,13 +5,14 @@
 }
 
 html {
-    width: 100%;
+    width: 160%;
     scroll-behavior: smooth;
 }
 
 body {
     display: grid;
-    font-size: 50px;
+    font-size: 3rem;
+    height: 160vh;
 }
 
 header, main, footer {
@@ -19,11 +20,6 @@ header, main, footer {
     background-color: rgb(8, 8, 60);
     color: white;
     text-align: center;
-}
-
-footer {
-    position: fixed;
-    top: 0;
 }
 
 header {
@@ -51,45 +47,69 @@ main {
     justify-content: space-evenly;
     align-items: center;
     gap: 8rem;
-    padding: 100px;
+    padding: 10rem;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
 main figure{
+    scroll-margin-top: 12rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height:60rem;
-    width: 46rem;
+    height:10em;
+    width: 7em;
     background-color: rgb(39, 99, 147);
     border: 2px solid black;
     border-radius: 30px;
-    
+    font-size: 1em; 
+    row-gap: 1rem;
 }
 
 img {
-    height:40rem;
-    width: 40rem;
+    height:5em;
+    width: 5em;
     background-color: hsla(0, 0%, 96%, 0.46);
     border-radius: 20rem;
     border: 2px double black;
-    border-width: 5px
+    border-width: 1rem;
 }
 
-img p{
-    font-size: 10px;
+figure p{
+    font-size: 2rem;
 }
+
 
 @media screen and (min-aspect-ratio: 7/4) {
+    body{
+        font-size: 3em;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
-        padding-left: 8%;
+        height: 130vh;
+        column-gap: 3rem;
+        padding-top: 1rem;
     }
     nav {
         display: none;
+    }
+    main figure{
+        font-size: 1em;
+        width: 6em;
+        height: 8em;
+    }
+    figurecaption{
+        font-size: 20px;
+    }
+    figure p{
+        font-size: 10px;
+    }
+    figure img {
+        height: 5em;
+        width: 5em;
+        border-radius: 3.5em;
     }
 }
 
@@ -98,9 +118,47 @@ img p{
         display: grid;
         grid-template-columns: 1fr 1fr; 
         padding-left: 13%;
+        height:auto;
         /* padding-left: 300px; */
     }
     nav {
         display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html{
+        width: 100%;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-image: radial-gradient(whitesmoke, rgba(128, 128, 128, 0.524));
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 8rem;
+        padding: 10rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    nav{
+        display: flex;
+    }
+    main figure{
+        font-size: 5rem;
+        width: 50rem;
+        height: 55rem;
+    }
+    figure img {
+        height: 7em;
+        width: 7em;
+        border-radius: 3.5em;
+    }
+    figurecaption {
+        font-size: 5rem;
+    }
+    figure p{
+        font-size: 4rem;
     }
 }
